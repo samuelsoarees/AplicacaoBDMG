@@ -1,0 +1,18 @@
+# Dependências baixadas pelo Boss (restaurar com: boss install)
+modules/
+
+# Saída de compilação do Delphi
+Win32/
+Win64/
+__history/
+__recovery/
+*.dcu
+*.exe
+*.identcache
+*.local
+*.stat
+*.tvsconfig
+*.~*
+
+# Configuração de runtime (contém senha do banco e segredo do JWT)
+AplicacaoBDMG_apiResources.json

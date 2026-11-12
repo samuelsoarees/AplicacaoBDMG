@@ -1,0 +1,41 @@
+# Dependências baixadas pelo Boss (restaurar com: boss install)
+modules/
+
+# Saída de compilação do Delphi
+Win32/
+Win64/
+*.dcu
+*.dcp
+*.bpl
+*.exe
+*.dll
+*.map
+*.drc
+*.rsm
+*.tds
+*.o
+*.a
+
+# Arquivos locais e temporários do RAD Studio
+__history/
+__recovery/
+*.identcache
+*.local
+*.stat
+*.tvsconfig
+*.dsk
+*.dsv
+*.projdata
+*.~*
+*.bak
+
+# Configuração de runtime (senha do banco, segredo do JWT, endereço do serviço)
+AplicacaoBDMG_apiResources.json
+AplicacaoBDMG_appResources.json
+
+# Ferramentas e sistema operacional
+.claude/
+graphify-out/
+Thumbs.db
+desktop.ini
+.DS_Store
